@@ -1,8 +1,6 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
 import { addNote } from "../../utils/local-data";
 import { useNavigate } from "react-router-dom";
-import {Home} from '../index';
 import PropTypes from 'prop-types';
 
 
