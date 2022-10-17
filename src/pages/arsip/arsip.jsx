@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { getArchivedNotes } from "../../utils/local-data";
+import { getArchivedNotes,getAllNotes } from "../../utils/local-data";
 import SearchInput from "../../component/search/search";
 import Catatan from "../../component/catatan/catatan";
 
@@ -13,6 +13,7 @@ class Arsip extends Component{
     }
 
     render(){
+        console.log(getAllNotes())
         return(
             <main>
                 <section className='homepage'></section>

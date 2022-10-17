@@ -1,4 +1,5 @@
 import CatatanList from "./catatanList";
+import PropTypes from 'prop-types';
 
 const Catatan = (props) =>{
     return(
@@ -8,6 +9,10 @@ const Catatan = (props) =>{
             }                             
         </section>
     )
+}
+
+Catatan.propTypes ={
+    data : PropTypes.array
 }
 
 export default Catatan;

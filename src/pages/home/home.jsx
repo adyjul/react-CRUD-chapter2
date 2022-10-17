@@ -15,6 +15,7 @@ class Home extends Component{
     }
     render(){
         return(
+         
         <main>
             <section className='homepage'></section>
             <h2>Catatan Aktif</h2>
